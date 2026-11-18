@@ -1,0 +1,16 @@
+# Layer 1 (classical methods, preprocessing)
+numpy>=1.23
+opencv-python>=4.5
+matplotlib>=3.6
+
+# notebooks
+ipykernel>=6.0
+jupyter>=1.0
+
+# models (PatchCore, PaDiM, RD4AD, EfficientAD): CPU build from PyPI on Windows; for a GPU build see pytorch.org
+torch>=2.0
+torchvision>=0.15
+
+# app
+streamlit>=1.30
+pandas>=1.5

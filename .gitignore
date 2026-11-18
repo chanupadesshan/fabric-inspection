@@ -1,0 +1,39 @@
+# ---- environment ----
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- local scratch ----
+_to_delete/
+Notebooks/
+*.log
+*.bak
+
+# ---- data: large (AITEX) or private (your own photos). Only the folder markers are kept. ----
+data/raw/*
+data/processed/*
+data/real/*
+data/real_good/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/real/.gitkeep
+!data/real_good/.gitkeep
+
+# ---- results: keep scores and thresholds (csv / json), drop pictures ----
+results/**/*.png
+results/**/*.jpg
+results/**/*.jpeg
+results/real_check/
+results/real_check_models/
+results/real_photos/
+
+# ---- trained model files, if you save any ----
+*.pt
+*.pth
+*.pkl
